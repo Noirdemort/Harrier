@@ -13,7 +13,7 @@ import CryptoSwift
 protocol Translate {
 	var HuntingParty: [Hunt] { get set }
 	var filePath: String { get }
-	
+
 	mutating func loadAndDraft(filePath: String)
 	func saveAndDeploy(hunts: [Hunt], filePath: String)
 	mutating func addHunt(hunt: Hunt)
@@ -33,7 +33,8 @@ struct Translator: Translate {
 	internal var initVector: String
 	internal var cipherKey: [UInt8]? = nil
 	
-	var filePath = NSHomeDirectory() + "/hunter.dat"
+	let filePath = NSHomeDirectory() + "/hunter.dat"
+	static let authPath = NSHomeDirectory() + "/auth.dat"
 	
 	mutating func loadAndDraft(filePath: String) {
 		do  {
