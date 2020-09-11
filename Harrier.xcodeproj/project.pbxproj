@@ -3,29 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5C325470250A495400061D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C32546F250A495400061D84 /* AppDelegate.swift */; };
 		5C325472250A495400061D84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C325471250A495400061D84 /* SceneDelegate.swift */; };
-		5C325474250A495400061D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C325473250A495400061D84 /* ViewController.swift */; };
+		5C325474250A495400061D84 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C325473250A495400061D84 /* LoginViewController.swift */; };
 		5C325477250A495400061D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C325475250A495400061D84 /* Main.storyboard */; };
 		5C32547A250A495400061D84 /* Harrier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C325478250A495400061D84 /* Harrier.xcdatamodeld */; };
 		5C32547C250A495700061D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C32547B250A495700061D84 /* Assets.xcassets */; };
 		5C32547F250A495700061D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C32547D250A495700061D84 /* LaunchScreen.storyboard */; };
+		5C3254B0250A60E100061D84 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C3254AF250A60E100061D84 /* CryptoSwift */; };
+		5C3254B2250A6BE600061D84 /* IntelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3254B1250A6BE600061D84 /* IntelViewController.swift */; };
+		5C3254B4250A6DA000061D84 /* Hunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3254B3250A6DA000061D84 /* Hunt.swift */; };
+		5C3254B6250A6DD400061D84 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3254B5250A6DD400061D84 /* Translator.swift */; };
+		5C3254B9250A6E0F00061D84 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3254B8250A6E0F00061D84 /* Processor.swift */; };
+		5C3254BD250A71E400061D84 /* HunterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3254BC250A71E400061D84 /* HunterViewController.swift */; };
+		5C3254C0250B7B0100061D84 /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3254BF250B7B0100061D84 /* ResetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C32546C250A495400061D84 /* Harrier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harrier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C32546C250A495400061D84 /* Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C32546F250A495400061D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C325471250A495400061D84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C325473250A495400061D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C325473250A495400061D84 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5C325476250A495400061D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C325479250A495400061D84 /* Harrier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Harrier.xcdatamodel; sourceTree = "<group>"; };
 		5C32547B250A495700061D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C32547E250A495700061D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C325480250A495700061D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C325486250A495D00061D84 /* Harrier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Harrier.entitlements; sourceTree = "<group>"; };
+		5C3254B1250A6BE600061D84 /* IntelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelViewController.swift; sourceTree = "<group>"; };
+		5C3254B3250A6DA000061D84 /* Hunt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hunt.swift; sourceTree = "<group>"; };
+		5C3254B5250A6DD400061D84 /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		5C3254B8250A6E0F00061D84 /* Processor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
+		5C3254BC250A71E400061D84 /* HunterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterViewController.swift; sourceTree = "<group>"; };
+		5C3254BF250B7B0100061D84 /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3254B0250A60E100061D84 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +65,7 @@
 		5C32546D250A495400061D84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C32546C250A495400061D84 /* Harrier.app */,
+				5C32546C250A495400061D84 /* Hunter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +73,14 @@
 		5C32546E250A495400061D84 /* Harrier */ = {
 			isa = PBXGroup;
 			children = (
+				5C325486250A495D00061D84 /* Harrier.entitlements */,
 				5C32546F250A495400061D84 /* AppDelegate.swift */,
 				5C325471250A495400061D84 /* SceneDelegate.swift */,
-				5C325473250A495400061D84 /* ViewController.swift */,
+				5C3254B7250A6DE300061D84 /* CoreLogic */,
+				5C325473250A495400061D84 /* LoginViewController.swift */,
+				5C3254B1250A6BE600061D84 /* IntelViewController.swift */,
+				5C3254BC250A71E400061D84 /* HunterViewController.swift */,
+				5C3254BF250B7B0100061D84 /* ResetViewController.swift */,
 				5C325475250A495400061D84 /* Main.storyboard */,
 				5C32547B250A495700061D84 /* Assets.xcassets */,
 				5C32547D250A495700061D84 /* LaunchScreen.storyboard */,
@@ -68,6 +88,16 @@
 				5C325478250A495400061D84 /* Harrier.xcdatamodeld */,
 			);
 			path = Harrier;
+			sourceTree = "<group>";
+		};
+		5C3254B7250A6DE300061D84 /* CoreLogic */ = {
+			isa = PBXGroup;
+			children = (
+				5C3254B3250A6DA000061D84 /* Hunt.swift */,
+				5C3254B5250A6DD400061D84 /* Translator.swift */,
+				5C3254B8250A6E0F00061D84 /* Processor.swift */,
+			);
+			path = CoreLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,8 +116,11 @@
 			dependencies = (
 			);
 			name = Harrier;
+			packageProductDependencies = (
+				5C3254AF250A60E100061D84 /* CryptoSwift */,
+			);
 			productName = Harrier;
-			productReference = 5C32546C250A495400061D84 /* Harrier.app */;
+			productReference = 5C32546C250A495400061D84 /* Hunter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,6 +147,9 @@
 				Base,
 			);
 			mainGroup = 5C325463250A495400061D84;
+			packageReferences = (
+				5C3254AE250A60E100061D84 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 5C32546D250A495400061D84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C325474250A495400061D84 /* ViewController.swift in Sources */,
+				5C325474250A495400061D84 /* LoginViewController.swift in Sources */,
 				5C32547A250A495400061D84 /* Harrier.xcdatamodeld in Sources */,
+				5C3254BD250A71E400061D84 /* HunterViewController.swift in Sources */,
+				5C3254B9250A6E0F00061D84 /* Processor.swift in Sources */,
+				5C3254C0250B7B0100061D84 /* ResetViewController.swift in Sources */,
 				5C325470250A495400061D84 /* AppDelegate.swift in Sources */,
+				5C3254B2250A6BE600061D84 /* IntelViewController.swift in Sources */,
+				5C3254B4250A6DA000061D84 /* Hunt.swift in Sources */,
 				5C325472250A495400061D84 /* SceneDelegate.swift in Sources */,
+				5C3254B6250A6DD400061D84 /* Translator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,15 +330,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Harrier/Harrier.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
 				INFOPLIST_FILE = Harrier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.Harrier;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Hunter;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,15 +352,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Harrier/Harrier.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
 				INFOPLIST_FILE = Harrier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.Harrier;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Hunter;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +392,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C3254AE250A60E100061D84 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C3254AF250A60E100061D84 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C3254AE250A60E100061D84 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5C325478250A495400061D84 /* Harrier.xcdatamodeld */ = {
