@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C32546B250A495400061D84"
-               BuildableName = "Harrier.app"
+               BuildableName = "Hunter.app"
                BlueprintName = "Harrier"
                ReferencedContainer = "container:Harrier.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C32546B250A495400061D84"
-            BuildableName = "Harrier.app"
+            BuildableName = "Hunter.app"
             BlueprintName = "Harrier"
             ReferencedContainer = "container:Harrier.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C32546B250A495400061D84"
-            BuildableName = "Harrier.app"
+            BuildableName = "Hunter.app"
             BlueprintName = "Harrier"
             ReferencedContainer = "container:Harrier.xcodeproj">
          </BuildableReference>
